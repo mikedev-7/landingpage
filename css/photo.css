@@ -1,0 +1,178 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 100%;
+    
+}
+ 
+body{
+    background-size: 100vh;
+    background-color: navy;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#theme{
+    color: white;
+}
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color:navy;
+    margin-top: 1.5rem;
+}
+#wrapper-link a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    display: flex;
+    padding-right: 3rem;
+    
+    
+    .subheading{
+        font-size: larger;
+    }
+    
+}
+#wrapper-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2rem;
+    
+}
+
+#wrapper-link a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+
+
+#roll{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+#with-us{
+    background-color: white;
+    color: navy;
+    width: 240px;
+    height: 7vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: larger;
+    cursor: pointer;
+
+}
+#with-us:hover{
+    color: pink;
+    background-color: navy;
+    border: 1px solid white;
+    font-weight: bolder;
+    
+    
+}
+#join-us:hover{
+color: pink;
+background-color: navy;
+border: 1px solid white;
+font-weight: bolder;
+
+}
+#join-us{
+    background-color: white;
+    color: navy;
+    min-width: 10%;
+    height: 2rem;
+    min-height: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: large;
+    cursor: pointer;
+    
+        
+    
+}
+
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+    
+@media (max-width:992px) {
+    #images{
+        width: 3rem ;
+        margin-right: 3px;
+    }
+    #roll{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #illustration{
+    width: 100%;
+    }
+    #join-us{
+        border-radius: 3px;
+    }
+    #wrapper{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    #wrapper-link a{
+        padding-right: 1rem;
+    }
+    #roll{
+        width: 100%;
+        margin: 0 0;
+        text-align: center;
+        font-size: small;
+        
+    }
+    #theme{
+        margin-bottom: 2rem;
+    }
+    #with-us{
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    #illustration img{
+        width: 60%;
+
+    }
+    #footer{
+        font-size: small;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    #logo img{
+    width: 6em;        
+    }
+}
+
